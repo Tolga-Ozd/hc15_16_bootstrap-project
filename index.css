@@ -1,0 +1,146 @@
+:root{
+    --red:#dc3545
+}
+
+/*! -------------- 1- NAVBAR ---------------- */
+.navbar {
+    background-image: linear-gradient(0deg, rgb(41, 32, 42) , rgb(214, 186, 48));
+}
+
+
+.navbar .navbar-nav {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+}
+
+.navbar .nav-link{
+    transition: color 0.7s;
+    color: white;
+}
+
+.navbar .nav-link:hover{
+    color:var(--red)
+}
+
+/*! ------------- 2- CAROUSEL --------------- */
+
+.carousel-item {
+   max-height:calc(100vh - 96px)
+}
+
+.carousel-caption h1{
+    color: var(--red);
+    font-weight: 500;
+    text-shadow: 3px 3px 3px black;
+}
+
+.carousel-caption h3 {
+    text-shadow: 3px 3px 3px black;
+    font-weight: ;
+}
+
+.carousel-caption .btn{
+    width: 8rem;
+    font-weight: 70px;
+}
+
+.carousel-caption {
+    bottom: 5rem !important;
+}
+
+.carousel-indicators {
+    gap: 0.5rem;
+}
+
+.carousel-indicators button {
+    background-color:aquamarine !important;
+    height: 0.4rem !important ;
+    width: 3rem !important;
+}
+
+
+
+
+
+
+/*! ------------ 3- ABOUT SECTION ----------- */
+
+section#instructors .card{
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+section#instructors .card:hover{
+    transform: scale(1.03);
+}
+
+section#instructors img{
+    transition: opacity 0.6s;
+    height: 260px;
+   }
+   
+
+section#instructors i:hover {
+ opacity: 0.6;
+}
+
+
+
+
+/*! ----------- 4- STUDENTS SECTION ----------*/
+
+/*! ----------- 5- COURSES SECTION ----------- */
+
+.nav-pills .nav-link.active {
+    background-color: var(--red);
+}
+
+.nav-pills .nav-link {
+    color: white;
+}
+
+/*! ----------- 6- CONTACT SECTION ------------ */
+
+/*! --------------- 7- FOOTER ----------------- */
+
+
+
+footer i{
+    transition: color 1s;
+    cursor: pointer;
+    margin-right: 0.8rem;
+    
+}
+
+
+footer i:hover{
+    color: var(--red);
+
+}
+
+.btn-up {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  color: white;
+  background-color: var(--red);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.btn-up:hover {
+    color: black;
+}
+
+.btn-up:hover i{
+    transform: scale(1.2);
+    font-size: 1.4rem;
+}
